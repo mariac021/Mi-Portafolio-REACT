@@ -50,9 +50,9 @@ function App() {
   </a>
 </div>
 
-        <div id="Acerca" className="confgtext">
-          <div className="alert aligntext container1" role="alert">
-      <p>¡BIENVENIDOS! espero disfruten este pequeño recorido por mi vida</p>
+        <div  className="confgtext">
+          <div className="alert portafolio aligntext container1" role="alert">
+      <p id="Acerca">¡BIENVENIDOS! espero disfruten este pequeño recorido por mi vida</p>
       <p>especificamente mi vida enfocada a la programacion y el diseño</p>
       <p>esa pequeña parte de mi que denominan como el Front-End...</p>
           </div>
@@ -63,7 +63,10 @@ function App() {
       <p>that little part of me that they call the Front-End ...</p> 
     </div> 
     </div>
-    <div className="container">
+    <div className="container1">
+      <img src="./images/Ciudad.jpg" width="1350"/>
+    </div>
+    <div >
           <section className="portafolio"/>
            <article className="portafolio_box">
                <div className=" portafolio_card">
@@ -126,18 +129,18 @@ function App() {
         <div className="footer_icons icons title">
 
             <a href="https://www.facebook.com/mariaclara.restrepoareiza"> <i class="fab fa-facebook-f fa-2x"></i> </a>
-              <a href="https://www.instagram.com/mclararar/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.instagram.com/mclararar/"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="https://github.com/mariac021"> <i class="fab fa-github fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/mar%C3%ADa-clara-restrepo-areiza-1b28081a2/"> <i class="fab fa-linkedin fa-2x"></i> </a>
         
         </div>
       
       
-       <section id="Contacto" className="formulario">
+       <section  className="formulario">
         <form>
           <div className="form-row">
             <div className="form-group col-md-6" >
-              <label for="inputEmail4">Email</label>
+              <label id="Contacto" for="inputEmail4">Email</label>
               <input type="email" class="form-control" id="inputEmail4"/>
             </div>
             <div className="form-group col-md-6">
