@@ -105,7 +105,7 @@ function App() {
                    <img src="./images/sombra.png" width="40"  alt=""/></p>
                    <h3 className="confgtext">Mi pagina de Maquillaje</h3>
                    <p className="textnav">Mi pagina de maquillaje en la que muestro mis trabajos,vendo productos y doy consejos.</p>
-                   <a href=' https://mariac021.github.io/clonegoogle/index.html'> <button >Ver proyecto</button>
+                   <a href='https://mariac021.github.io/Producto/'> <button >Ver proyecto</button>
                    </a>
  
                </div>
@@ -124,10 +124,11 @@ function App() {
         </div>
         </section>
         <div className="footer_icons icons title">
-              <i class="fab fa-facebook-f fa-2x"></i>
-              <i class="fab fa-instagram fa-2x"></i>
-              <i class="fab fa-github fa-2x"></i>
-              <i class="fab fa-linkedin fa-2x"></i>
+
+            <a href="https://www.facebook.com/mariaclara.restrepoareiza"> <i class="fab fa-facebook-f fa-2x"></i> </a>
+              <a href="https://www.instagram.com/mclararar/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://github.com/mariac021"> <i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/mar%C3%ADa-clara-restrepo-areiza-1b28081a2/"> <i class="fab fa-linkedin fa-2x"></i> </a>
         
         </div>
       
