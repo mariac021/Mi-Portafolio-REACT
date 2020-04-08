@@ -89,7 +89,7 @@ function App() {
                    <img src="./images/estrella.png" width="40"  alt=""/></p>
                   <h3 className="confgtext">Formulario para la app rappi</h3>
                   <p className="textnav">Este es un formulario de satisfacción para los usuarios de Rappi.</p>
-                  <a href='https://mariac021.github.io/clonegoogle/index.html'><button >Ver proyecto</button>
+                  <a href='https://mariac021.github.io/Formulario/'><button >Ver proyecto</button>
                   </a>
 
               </div>
@@ -105,8 +105,8 @@ function App() {
                    <img src="./images/sombra.png" width="40"  alt=""/></p>
                    <h3 className="confgtext">Mi pagina de Maquillaje</h3>
                    <p className="textnav">Mi pagina de maquillaje en la que muestro mis trabajos,vendo productos y doy consejos.</p>
-                   <button onClick="location.href=' https://mariac021.github.io/clonegoogle/index.html'">Ver proyecto</button>
- 
+                   <a href=' https://mariac021.github.io/clonegoogle/index.html'> <button >Ver proyecto</button>
+                   </a>
  
                </div>
 
