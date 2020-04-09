@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 .App {
   text-align: center;
 }
@@ -16,8 +17,8 @@
 
 .App-header {
   background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #000000, #444444);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000, #444444); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #000000, #242424);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #242424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -91,6 +92,7 @@
   padding: 5px;
   border: 15px aqua;
   box-shadow: 0px 1px 4px 1px #9c83ec;
+  background-color: black;
 
 }
 .portafolio_card button {
@@ -158,4 +160,22 @@
   margin: auto;
   margin-top: 40%;
   color: #8168d3;
+}
+.CARD{
+  background-color: black;
+  border: aqua;
+  box-shadow:0px 1px 4px 1px #8168d3 ;
+  color: #9c83ec;
+}
+.textcarrusel{
+  color: rgb(208, 252, 252);
+  font-size: 30px;
+  font-family:'Permanent Marker', cursive;
+}
+.textheader{
+  color: #b7a6f0;
+}
+.textcard2{
+  color: #fab6f6;
+  font-size: large;
 }

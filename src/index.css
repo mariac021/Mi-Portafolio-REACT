@@ -6,11 +6,132 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #000000, #444444);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000, #444444); 
+  background: -webkit-linear-gradient(to right, #000000, #242424);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #242424); 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.navbarS{
+  background-color: black;
+  border:10px ;
+  border-color: #9c83ec;;
+ 
+}
+.textnav{
+  color: #9c83ec; 
+  font-family: "Special Elite";
+  justify-content: space-between;
+}
+.textnav:hover{
+  color: #fc7cf5; 
+  font-family: "Special Elite";
+  justify-content: space-between;
+}
+
+.container1 {
+  border: 15px ;
+  border-color: aqua;
+  box-shadow: 0px 1px 8px 2px #9c83ec;
+  border-radius: 15px;
+  
+}
+.confgtext {
+  font-size: 18px;
+  color: #b7a6f0;
+}
+.alignimg {
+  margin-top: 5%;
+}
+.aligntext {
+  margin-top: 5%;
+  color:#b7a6f0 ;
+}
+.portafolio {
+  display: block;
+  margin: auto;
+}
+.portafolio_box {
+  margin: 15px;
+  border: 15px aqua;
+  box-shadow: 0px 1px 8px 2px #9c83ec;
+  border-radius: 10px;
+}
+.portafolio_box img {
+  border-radius: 10px;
+  object-fit: fill;
+}
+.portafolio_card {
+  padding: 5px;
+  border: 15px aqua;
+  box-shadow: 0px 1px 4px 1px #9c83ec;
+
+}
+.portafolio_card button {
+  color: rgb(248, 226, 230);
+  background-color: #9c83ec;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px aqua;
+}
+
+.portafolio_card button:hover {
+  background-color: #8168d3;
+  color: #9c83ec;
+  border: none;
+}
+.footer {
+  color:#8168d3;
+  background-color: #000000;
+}
+.footer .footer_section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 15px;
+}
+.copyright {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color:#9c83ec ;
+  text-align: center;
+  color: #8168d3;
+  font-style: italic;
+}
+.buttoncolor {
+  color: #8168d3;
+  background-color: #9c83ec;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px #8168d3;
+}
+.buttoncolor:hover {
+  background-color: #8168d3;
+  color:#9c83ec ;
+  border: none;
+}
+.imgx {
+  margin-right: 100%;
+  border-radius: 15px;
+  margin-right: 99%;
+}
+.formulario {
+  margin: 25px;
+}
+.icons{
+  justify-content: space-between;
+  display: inline-block;
+  margin: auto;
+  margin-top: 40%;
+  color: #9c83ec;
+}
+.icons:hover{
+  justify-content: space-between;
+  display: inline-block;
+  margin: auto;
+  margin-top: 40%;
+  color: #8168d3;
 }
